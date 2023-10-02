@@ -10,6 +10,7 @@ import DetailsSection from "../components/DetailsSection";
 import Gridcol from "../components/Gridcol";
 import Contact from "../components/Contact";
 import Faq from "../components/Faq";
+import Foot from "../components/Footer";
 
 
 const AlternateVersion: NextPage = () => {
@@ -17,7 +18,7 @@ const AlternateVersion: NextPage = () => {
     <>
     
    
-    <div className="relative bg-black w-full h-[6573px] overflow-hidden text-center text-xs text-gray-300 font-avenir">
+    <div className="relative bg-black w-full  overflow-hidden text-center text-xs text-gray-300 ">
     <Navbar />
     
       <div className="absolute top-[-534.13px] left-[calc(50%_-_944px)] rounded-[50%] bg-mediumseagreen-200 [filter:blur(600px)] w-[1327.95px] h-[674.74px] [transform:_rotate(-10.93deg)] [transform-origin:0_0]" />
@@ -31,11 +32,18 @@ const AlternateVersion: NextPage = () => {
       <Gridcol />
       <Contact />
       <Faq />
-     
+      <Foot />
 
 
-     
-      <TrustCard />
+
+
+    {/* ******************************************************************************** OLD FOOTER ******************************************************************************      */}
+      {/* <TrustCard /> */}
+
+        {/* ******************************************************************************** OLD FOOTER ******************************************************************************      */}
+
+
+
       {/* <div className="absolute top-[4784px] left-[405px] w-[630px] h-[464px] text-base text-white">
         <div className="absolute top-[432px] left-[243px] rounded-lg bg-mediumseagreen-100 flex flex-row py-2 px-4 items-center justify-center border-[1px] border-solid border-mediumseagreen-400">
           <div className="relative leading-[0%] font-extrabold flex items-center justify-center w-28 h-4 shrink-0">

@@ -12,7 +12,7 @@ const Contact: NextPage = () =>{
           src="/undefined11.png"
         />  
         
-        <div className=" text-45xl tracking-[-0.04em] leading-[100%] font-medium font-futura-md-bt   inline-block ">
+        <div className=" text-45xl max-sm:text-[60px] tracking-[-0.04em] leading-[100%] font-medium font-futura-md-bt   inline-block ">
           Lorem ipsum dolor sit amet consecteur
         </div>
         <div className=" rounded-lg bg-mediumseagreen-100 flex flex-row py-2 px-4 items-center justify-center border-[1px] border-solid border-mediumseagreen-400">
