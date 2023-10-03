@@ -65,20 +65,7 @@ const Foot: NextPage = () => {
                         </li>
                     </nav>
                 </div>
-                <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium tracking-widest text-darkgray uppercase title-font">Support</h2>
-                    <nav className="mb-10 list-none">
-                        <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Contact Support</a>
-                        </li>
-                        <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Help Resources</a>
-                        </li>
-                        <li className="mt-3">
-                            <a className="text-gray-500 cursor-pointer hover:text-gray-900">Release Updates</a>
-                        </li>
-                    </nav>
-                </div>
+                
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h2 className="mb-3 text-sm font-medium tracking-widest text-darkgray uppercase title-font">Platform
                     </h2>

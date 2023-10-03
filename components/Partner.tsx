@@ -2,15 +2,15 @@ import type { NextPage } from "next";
 
 const PartnerSection: NextPage = () => {
   return (
-    <section className=" flex justify-center items-center lg:min-h-[40vh] md:min-h-[60vh] min-h-[30vh] ">
-         <div className=" flex flex-col gap-0">
-          <div className="   gap-5">
+    <section className=" flex justify-center items-center lg:min-h-[70vh] md:min-h-[60vh] min-h-[70vh] ">
+         <div className=" flex flex-col gap-7">
+          <div className=" gap-2 ">
             <p className=" text-xl ">
               <span className="font-black font-avenir ">Backed by the best</span>
             </p>
             <p className=" text-xl ">You are in good hands. Promise.</p>
           </div>
-          <div className=" flex flex-row lg:gap-32 md:gap-25 gap-15 max-sm:flex-col max-sm:justify-center max-sm:items-center">
+          <div className=" flex flex-row lg:gap-32 md:gap-25 gap-15 max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-9">
             <img
               className=" w-45 h-12 overflow-hidden shrink-0 object-cover"
               alt=""

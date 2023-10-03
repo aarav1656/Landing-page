@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 
 const Navbar: NextPage = () => {
   return (
-    <section className="flex">
-      <div className=" flex lg:justify-around md:justify-between box-border md:w-full h-10 sm:w-full flex-row py-2 px-4 lg:px-0 items-center text-white border-b-[1px] border-solid border-mediumseagreen-500">
+    <section className="flex justify-center">
+      <div className=" flex lg:justify-around md:justify-between box-border md:w-[70vw] h-10 sm:w-full flex-row py-2 px-4 lg:px-0 items-center text-white border-b-[1px] border-solid border-mediumseagreen-500">
         <div className="h-6 flex flex-row items-center justify-center gap-[24px]">
           <img
             className="relative w-12 h-[18.75px] object-cover"

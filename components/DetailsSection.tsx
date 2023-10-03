@@ -6,7 +6,9 @@ const DetailsSection: NextPage = () => {
          <div className=" w-full min-h-screen text-center  font-avenir  flex flex-col gap-12 justify-center  items-center ">
         <div className=" md:max-w-[766px] sm:max-w-[600px] max-sm:max-w-[380px]  flex flex-col justify-center items-center gap-5 max-sm:  py-10  ">
       <div className=" lg:text-[56px] md:text-[44px] sm:text-[44px]  text-[35px] tracking-[-0.04em] leading-[100%] font-extrabold   ">
+        <span className="bg-gradient-to-r from-white to-darkgray inline-block text-transparent bg-clip-text">
       Easiest way to launch <br /> and grow a web3 community
+      </span>
         </div>
         <div className="md:max-w-[650px] sm:max-w-[500px] max-sm:w-[300px] max-sm:text-[14px] text-[18px] max-sm:text-justify ">
         Kyte is building a launchpad for web3 communities/projects to build,

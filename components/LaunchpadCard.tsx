@@ -2,10 +2,12 @@ import type { NextPage } from "next";
 
 const LaunchpadCard: NextPage = () => {
   return (
-    <div className=" w-full h-screen max-sm:h-[70vh] text-center text-xl text-darkgray font-Avenir  flex flex-col gap-5 justify-center items-center">
+    <div className=" w-full h-[75vh] max-sm:h-[70vh] text-center text-xl text-darkgray font-Avenir  flex flex-col gap-5 justify-center items-center">
       <div className=" md:max-w-[766px] sm:max-w-[600px] max-sm:max-w-[380px]  flex flex-col justify-center items-center gap-5 ">
       <div className=" lg:text-45xl md:text-[50px] sm:text-[50px]  text-[45px] tracking-[-0.04em] leading-[100%] font-extrabold   ">
+        <span className="bg-gradient-to-r from-white to-gray-500 inline-block text-transparent bg-clip-text">
           Introducing the first web3 community launchpad
+          </span>
         </div>
         <div className="md:max-w-[650px] sm:max-w-[500px] max-sm:w-[300px] max-sm:text-[14px] ">
           Kyte is an ultimate web3 community launchpad that makes it stupidly

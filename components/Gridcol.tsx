@@ -18,12 +18,7 @@ const Gridcol: NextPage = () => {
       </div>
       </div>
     
-    
-      <section>
 
-
-      </section>
-    
     
     
     <section className="w-full flex justify-center items-center">
