@@ -13,7 +13,9 @@ const Contact: NextPage = () =>{
         />  
         
         <div className=" text-45xl max-sm:text-[60px] tracking-[-0.04em] leading-[100%] font-medium font-futura-md-bt   inline-block ">
+          <span className="bg-gradient-to-r from-white to-gray-500 inline-block text-transparent bg-clip-text">
           Lorem ipsum dolor sit amet consecteur
+          </span>
         </div>
         <div className=" rounded-lg bg-mediumseagreen-100 flex flex-row py-2 px-4 items-center justify-center border-[1px] border-solid border-mediumseagreen-400">
           <div className=" leading-[0%] font-extrabold flex items-center justify-center w-28 h-4 shrink-0">

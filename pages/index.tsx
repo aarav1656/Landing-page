@@ -29,7 +29,7 @@ const AlternateVersion: NextPage = () => {
       <PartnerSection />
       <DetailsSection />
       <DashBoardCol />
-      <Gridcol />
+      {/* <Gridcol /> */}
       <Contact />
       <Faq />
       <Foot />
