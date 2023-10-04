@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 
 const LaunchpadCard: NextPage = () => {
   return (
+    <section id="about">
     <div className=" w-full h-[75vh] max-sm:h-[70vh] text-center text-xl text-darkgray font-Avenir  flex flex-col gap-5 justify-center items-center">
       <div className=" md:max-w-[766px] sm:max-w-[600px] max-sm:max-w-[380px]  flex flex-col justify-center items-center gap-5 ">
       <div className=" lg:text-45xl md:text-[50px] sm:text-[50px]  text-[45px] tracking-[-0.04em] leading-[100%] font-extrabold   ">
@@ -39,6 +40,7 @@ const LaunchpadCard: NextPage = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Contact: NextPage = () =>{
     return(
-        <section className="w-full h-screen  flex justify-center items-center">
+        <section className="w-full h-screen  flex justify-center items-center" id="contact">
             <div className="flex justify-center items-center ">
             <div className="text-base text-white  flex flex-col gap-10 items-center justify-center max-w-[600px]">
 

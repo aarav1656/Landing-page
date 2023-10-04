@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const PartnerSection: NextPage = () => {
   return (
-    <section className=" flex justify-center items-center lg:min-h-[70vh] md:min-h-[60vh] min-h-[70vh] ">
+    <section className=" flex justify-center items-center lg:min-h-[70vh] md:min-h-[60vh] min-h-[70vh] " id="partners">
          <div className=" flex flex-col gap-7">
           <div className=" gap-2 ">
             <p className=" text-xl ">
