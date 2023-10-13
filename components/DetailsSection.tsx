@@ -23,7 +23,7 @@ const DetailsSection: NextPage = () => {
       <div className="  flex justify-center items-center">
         <div className="grid md:grid-cols-3 grid-cols-2 max-sm:grid-cols-1 gap-8 max-sm:gap-3">
     {
-  [1, 1, 1, 1, 1, 1].map((_, index) => (
+  [1, 1, 1].map((_, index) => (
     <div key={index} className=" w-80 h-20 text-left flex  gap-2 ">
         <div className="rounded-full box-border w-3 h-2 border-[2px] border-solid border-white " /> 
         <div className="">

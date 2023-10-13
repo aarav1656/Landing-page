@@ -16,7 +16,7 @@ const Navbar: NextPage = () => {
             id="items"
           >
             <div className="font-extrabold flex items-center justify-center ">
-              <Link href="#about" className=" h-4 w-auto no-underline text-white">
+              <Link href="#about" className=" no-underline text-white">
               About
               </Link>
             </div>

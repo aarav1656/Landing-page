@@ -4,14 +4,12 @@ const Faq: NextPage = () => {
     return(
     <div className="max-w-screen-xl mx-auto px-5  min-h-sceen">
 	<div className="flex flex-col items-center">
-		<h2 className="font-bold text-29xl mt-5 tracking-tight">
+		<h2 className="font-bold text-29xl mt-5 tracking-tight bg-gradient-to-r from-white to-gray-500 inline-block text-transparent bg-clip-text font-avenir">
 			FAQ
 		</h2>
-		<p className="text-neutral-500 text-[30px] mt-3">
-			Frequenty asked questions
-		</p>
+		
 	</div>
-	<div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 text-[20px]">
+	<div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 text-[20px] text-darkgray">
 		<div className="py-5">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
