@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const DetailsSection: NextPage = () => {
   return (
     <section className="">
-         <div className=" w-full min-h-screen text-center  font-avenir  flex flex-col gap-12 justify-center  items-center ">
+         <div className=" w-full min-h-[50vh] text-center  font-avenir  flex flex-col gap-12 justify-center  items-center ">
         <div className=" md:max-w-[766px] sm:max-w-[600px] max-sm:max-w-[380px]  flex flex-col justify-center items-center gap-5 max-sm:  py-10  ">
       <div className=" lg:text-[56px] md:text-[44px] sm:text-[44px]  text-[35px] tracking-[-0.04em] leading-[100%] font-extrabold   ">
         <span className="bg-gradient-to-r from-white to-darkgray inline-block text-transparent bg-clip-text">
@@ -18,8 +18,8 @@ const DetailsSection: NextPage = () => {
         </div>
         
       </div>
-      {/* ******************************************************************************************************************************************** */}
-      <div className=" md:mt-5">
+      {/* ******************************************************DETAILS COLOUMNS************************************************************** */}
+      {/* <div className=" md:mt-5">
       <div className="  flex justify-center items-center">
         <div className="grid md:grid-cols-3 grid-cols-2 max-sm:grid-cols-1 gap-8 max-sm:gap-3">
     {
@@ -44,7 +44,7 @@ const DetailsSection: NextPage = () => {
     </div>
 
 
-      </div>
+      </div> */}
           {/* ******************************************************************************************************************************************** */}
      
     </div>

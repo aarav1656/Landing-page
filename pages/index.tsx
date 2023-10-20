@@ -31,8 +31,8 @@ const AlternateVersion: NextPage = () => {
       <DashBoardCol />
       {/* <Gridcol /> */}
       <Contact />
-      <Faq />
-      <Foot />
+      {/* <Faq /> */}
+      {/* <Foot /> */}
 
 
 
